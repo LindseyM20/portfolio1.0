@@ -1,0 +1,168 @@
+.navbar {
+  background-color: grey;
+}
+.navbar-brand {
+  color: grey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  background-color: rgb(216, 107, 125);
+}
+
+.nav-link {
+  padding-left: 30px;
+}
+
+.d-flex {
+  margin: 50px 16px 50px 16px;
+  /* border: 2px; */
+  /* border-color: white;
+  border-style: solid; */
+  background-color: rgb(250, 250, 250);
+}
+
+/* .p-2 {
+  margin: 50px 16px 50px 16px;
+  border: 2px;
+  border-color: white;
+  border-style: solid;
+  background-color: rgb(250, 250, 250);
+} */
+
+.content {
+  padding: 20px;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 220%;
+  color: rgb(216, 107, 125);
+  font-weight: 600;
+}
+
+body {
+  /* background-image: url("./images/doodle-gray-prints.jpg"); */
+  background: linear-gradient(90deg, rgb(250, 250, 250) 70%, grey); 
+}
+
+.headshot {
+  width: 60%;
+  margin-right: 16px;
+  margin-bottom: 4px;
+}
+
+.link {
+  font-size: 120%;
+  font-variant: all-petite-caps;
+  text-align: center;
+}
+
+.dog {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.dogbox2 {
+  display: none;
+}
+
+#pic1, #pic7 {
+  width: 70%;
+}
+
+#pic2, #pic8 {
+  width: 130%;
+}
+
+#pic3, #pic9 {
+  width: 120%;
+}
+
+#pic4, #pic10 {
+  width: 140%;
+}
+
+#pic5, #pic11 {
+  width: 120%;
+}
+
+#pic6, #pic12 {
+  width: 120%;
+}
+
+#contact {
+  margin-top: 40px;
+  padding-top: 50px;
+}
+
+form {
+  padding-left: 10%;
+  width: 90%;
+}
+
+.btn {
+  margin: 16px 16px 28px 0px;
+}
+
+.link {
+  color: grey;
+  padding-left: 10%;
+  padding-bottom: 4%;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: grey;
+}
+
+.footer p {
+  margin: 0;
+}
+
+
+@media (min-width: 576px) {
+  .navbar-brand {
+    margin-left: 4px;
+  }
+  .d-flex {
+    margin: 60px 20px 50px 20px;
+  }
+  .headshot {
+    width: 30%;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    margin-left: 24px;
+  }
+  .d-flex {
+    width: 540px;
+    float: left;
+    margin: 70px 30px 50px 40px;
+  }
+  .headshot {
+    width: 30%;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    margin-left: 44px;
+  }
+  .d-flex {
+    width: 800px;
+    margin: 80px 30px 50px 60px;
+    /* height: 1250px; */
+  }
+  /* .headshot {
+    width: 50%;
+  } */
+  .dogbox1 {
+    display: none;
+  }
+  .dogbox2 {
+    display: block;
+  }
+}
