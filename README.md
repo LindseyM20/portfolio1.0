@@ -7,13 +7,6 @@
 
 https://github.com/LindseyM20/portfolio1.0
 
-https://lindseym20.github.io/
-
-https://lindseym20.github.io/portfolio.html
-
-https://lindseym20.github.io/contact.html
-
-
 
 ## Description:
 
